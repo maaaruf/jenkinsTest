@@ -5,9 +5,7 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "jenkinsTestProject", "jenkinsTestProject\jenkinsTestProject.csproj", "{F113F396-0D92-4A44-B475-6B669EA10F20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sampleTest", "sampleTest\sampleTest.csproj", "{E41909FD-1698-40B9-8F61-EF72C3952039}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnetCoreTest", "dotnetCoreTest\dotnetCoreTest.csproj", "{F3B7AFB5-87A7-4CBC-8AE9-A955AE51569B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sampleTest", "sampleTest\sampleTest.csproj", "{E41909FD-1698-40B9-8F61-EF72C3952039}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{E41909FD-1698-40B9-8F61-EF72C3952039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41909FD-1698-40B9-8F61-EF72C3952039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41909FD-1698-40B9-8F61-EF72C3952039}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3B7AFB5-87A7-4CBC-8AE9-A955AE51569B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3B7AFB5-87A7-4CBC-8AE9-A955AE51569B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3B7AFB5-87A7-4CBC-8AE9-A955AE51569B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3B7AFB5-87A7-4CBC-8AE9-A955AE51569B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
