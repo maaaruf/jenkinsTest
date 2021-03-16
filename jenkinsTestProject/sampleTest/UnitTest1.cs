@@ -32,8 +32,8 @@ namespace sampleTest
         [Test]
         public void CalculationFailTest()
         {
-            int number1 = 5;
-            int number2 = 4;
+            int number1 = 3;
+            int number2 = 0;
             int expectedResult = 3;
 
             var result = calculationService.sum(number1, number2);
