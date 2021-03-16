@@ -4,6 +4,10 @@
     <TargetFramework>net472</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

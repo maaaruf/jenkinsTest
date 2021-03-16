@@ -28,5 +28,16 @@ namespace sampleTest
             var result = calculationService.sum(number1, number2);
             Assert.AreEqual(result, expectedResult);
         }
+
+        [Test]
+        public void CalculationFailTest()
+        {
+            int number1 = 5;
+            int number2 = 4;
+            int expectedResult = 3;
+
+            var result = calculationService.sum(number1, number2);
+            Assert.AreEqual(result, expectedResult);
+        }
     }
 }
