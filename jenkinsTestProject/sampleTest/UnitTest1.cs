@@ -9,6 +9,7 @@ namespace sampleTest
         [SetUp]
         public void Setup()
         {
+            calculationService = new CalculationService();
         }
 
         [Test]
